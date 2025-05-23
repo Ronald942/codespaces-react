@@ -15,6 +15,6 @@ body {
     "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
     sans-serif;
 
-  background-color: var(--primary-dark);
-  color: var(--primary-contrast);
+  background-color: var(--primary);
+  color: var(--primary-contrast-dark);
 }
