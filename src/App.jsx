@@ -5,8 +5,12 @@ export default function App() {
   return (
     <div>
       <h1>Meu primeiro React App</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, corporis repudiandae! Dolorum minima quos,
-        doloremque laudantium quidem molestiae ipsum, reprehenderit recusandae magnam eveniet a. Ipsum laboriosam quaerat ex suscipit ad.</p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod ipsum,
+        aliquid alias nemo consectetur dignissimos delectus quos nisi deleniti
+        obcaecati vitae dolorem fuga, neque placeat laborum deserunt maiores
+        mollitia? Excepturi?
+      </p>
     </div>
   );
 }
