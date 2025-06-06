@@ -1,14 +1,16 @@
 .container {
   display: grid;
 
+  grid-template-columns: 30rem auto 30rem;
   grid-template-areas:
-    "header1 header1"
-    "aside header2"
-    "aside main"
-    "footer footer";
+    "header1 header1 header1"
+    "aside header2 header2"
+    "aside main aside2"
+    "aside footer2 aside2"
+    "footer footer aside2";
 
-  grid-template-columns: 30rem auto;
-  grid-template-rows: 10rem 5rem calc(100vh - 15rem) 10rem;
+  grid-template-columns: 30rem auto 30rem;
+  grid-template-rows: 10rem 5rem auto 10rem calc(100vh - 70rem);
 
   @media (max-width: 1200px) {
     grid-template-areas:
@@ -40,10 +42,26 @@
   }
 }
 
+
+.aside2 {
+  grid-area: aside2;
+  background-color: darkseagreen;
+
+  @media (max-width: 1200px) {
+    display: none;
+  }
+}
+
 .footer {
   grid-area: footer;
   background-color: darkslategray;
 }
+
+.footer2 {
+  grid-area: footer2;
+  background-color: rgb(62, 255, 255);
+}
+
 
 .grid {
   /* height: 100vh; */
