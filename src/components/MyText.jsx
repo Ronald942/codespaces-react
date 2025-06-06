@@ -1,6 +1,6 @@
 import styles from "./MyText.module.css";
 
-export function MyText({title, children}) {
+export function MyText({ title, children }) {
   return (
     <div className={styles.container}>
       <div className={styles.div}>

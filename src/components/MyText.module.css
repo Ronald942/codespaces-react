@@ -1,6 +1,10 @@
 .container {
-    margin: 0 auto;
-    max-width: 80rem;
+    /* margin: 0 auto; */
+    max-width: 50rem;
+
+    @media (max-width: 768px) {
+        width: 80vw;
+    }
 }
 
 .div {
@@ -8,7 +12,7 @@
     color: var(--primary-contrast-dark);
     box-shadow: 0 0 1rem var(--gray-900);
     padding: 3rem;
-    margin: 3rem 5rem;
+    /* margin: 3rem 5rem; */
     border-radius: 2rem;
 }
 
